@@ -173,7 +173,8 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -194,6 +195,9 @@ header {
   margin-left: 50px;
 }
 
+.auth-nav>li {
+  display: flex;
+}
 
 /* hero */
 
